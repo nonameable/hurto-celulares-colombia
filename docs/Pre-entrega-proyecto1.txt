@@ -1,0 +1,44 @@
+qDavid Mauricio Delgado Ruiz                201422209
+Maria Camila Remolina Gutiérrez                201217379
+
+
+
+
+Pre-entrega proyecto 1 - Inteligencia de Negocios
+
+
+Descripción: Hurto de celulares (del 01 de enero al 31 de julio año 2017). 
+
+
+Fuente: Grupo Información de Criminalidad (GICRI) - DIJIN. Información preliminar, datos extraídos el 02 de agosto de 2017, sujeto a variación.
+
+
+Filas: 36769
+
+
+Columnas
+Fecha, Departamento, Municipio, Día, Hora, Barrio, Zona, Clase de sitio, Arma empleada, Móvil Agresor, Móvil Víctima, Edad, Sexo, Estado civil, País de Nacimiento, Clase de empleado, Profesión, Escolaridad, Código DANE, Clase, Marca, Línea, Cantidad
+
+
+Columnas que eliminaremos
+
+
+Código DANE: No es relevante para nuestros requerimientos de negocio.
+Clase: Todas las filas dicen “Celular”.
+
+
+
+
+Requerimientos de Negocio
+
+
+Plantear un modelo predictivo que permita determinar dado un lugar y hora la probabilidad de un robo.
+
+
+Caracterizar las zonas geográficas donde hay mayor probabilidad de un hurto de celular dentro de una ciudad.
+
+
+Caracterizar los perfiles de personas con mayor probabilidad de ser víctimas de un hurto de celular.
+
+
+Caracterizar la clase de Sitio en donde hay mayor probabilidad de un hurto de celular dentro de una ciudad.
