@@ -1,0 +1,42 @@
+Apriori
+=======
+
+Minimum support: 0.1 (3677 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 26
+
+Size of set of large itemsets L(2): 57
+
+Size of set of large itemsets L(3): 42
+
+Size of set of large itemsets L(4): 11
+
+Size of set of large itemsets L(5): 1
+
+Best rules found:
+
+ 1. Profesion=EMPLEADO PARTICULAR 16272 ==> Clase de empleado=EMPLEADO PARTICULAR 16272    <conf:(1)> lift:(1.95) lev:(0.22) [7916] conv:(7916.28)
+ 2. Clase de sitio=VIAS PUBLICAS Profesion=EMPLEADO PARTICULAR 12063 ==> Clase de empleado=EMPLEADO PARTICULAR 12063    <conf:(1)> lift:(1.95) lev:(0.16) [5868] conv:(5868.61)
+ 3. Profesion=EMPLEADO PARTICULAR Escolaridad=SECUNDARIA 11910 ==> Clase de empleado=EMPLEADO PARTICULAR 11910    <conf:(1)> lift:(1.95) lev:(0.16) [5794] conv:(5794.18)
+ 4. Sexo=MASCULINO Profesion=EMPLEADO PARTICULAR 9016 ==> Clase de empleado=EMPLEADO PARTICULAR 9016    <conf:(1)> lift:(1.95) lev:(0.12) [4386] conv:(4386.25)
+ 5. Clase de sitio=VIAS PUBLICAS Profesion=EMPLEADO PARTICULAR Escolaridad=SECUNDARIA 8974 ==> Clase de empleado=EMPLEADO PARTICULAR 8974    <conf:(1)> lift:(1.95) lev:(0.12) [4365] conv:(4365.82)
+ 6. Clase de sitio=VIAS PUBLICAS Clase de empleado=EMPLEADO PARTICULAR Escolaridad=SECUNDARIA 8974 ==> Profesion=EMPLEADO PARTICULAR 8974    <conf:(1)> lift:(2.26) lev:(0.14) [5002] conv:(5002.59)
+ 7. Municipio=BOGOTA D.C. (CT) 7755 ==> Departamento=CUNDINAMARCA 7755    <conf:(1)> lift:(4.56) lev:(0.16) [6054] conv:(6054.84)
+ 8. Clase de sitio=VIAS PUBLICAS Sexo=MASCULINO Profesion=EMPLEADO PARTICULAR 6806 ==> Clase de empleado=EMPLEADO PARTICULAR 6806    <conf:(1)> lift:(1.95) lev:(0.09) [3311] conv:(3311.1)
+ 9. Sexo=MASCULINO Profesion=EMPLEADO PARTICULAR Escolaridad=SECUNDARIA 6731 ==> Clase de empleado=EMPLEADO PARTICULAR 6731    <conf:(1)> lift:(1.95) lev:(0.09) [3274] conv:(3274.61)
+10. Sexo=MASCULINO Clase de empleado=EMPLEADO PARTICULAR Escolaridad=SECUNDARIA 6731 ==> Profesion=EMPLEADO PARTICULAR 6731    <conf:(1)> lift:(2.26) lev:(0.1) [3752] conv:(3752.22)
+11. Profesion=EMPLEADO PARTICULAR LINEA=LINEA STANDARD 6717 ==> Clase de empleado=EMPLEADO PARTICULAR 6717    <conf:(1)> lift:(1.95) lev:(0.09) [3267] conv:(3267.8)
+12. Arma empleada=SIN EMPLEO DE ARMAS Profesion=EMPLEADO PARTICULAR 5765 ==> Clase de empleado=EMPLEADO PARTICULAR 5765    <conf:(1)> lift:(1.95) lev:(0.08) [2804] conv:(2804.65)
+13. Municipio=BOGOTA D.C. (CT) Clase de sitio=VIAS PUBLICAS 5243 ==> Departamento=CUNDINAMARCA 5243    <conf:(1)> lift:(4.56) lev:(0.11) [4093] conv:(4093.56)
+14. Municipio=BOGOTA D.C. (CT) LINEA=LINEA STANDARD 5199 ==> Departamento=CUNDINAMARCA 5199    <conf:(1)> lift:(4.56) lev:(0.11) [4059] conv:(4059.2)
+15. Clase de sitio=VIAS PUBLICAS Sexo=MASCULINO Profesion=EMPLEADO PARTICULAR Escolaridad=SECUNDARIA 5149 ==> Clase de empleado=EMPLEADO PARTICULAR 5149    <conf:(1)> lift:(1.95) lev:(0.07) [2504] conv:(2504.97)
+16. Clase de sitio=VIAS PUBLICAS Sexo=MASCULINO Clase de empleado=EMPLEADO PARTICULAR Escolaridad=SECUNDARIA 5149 ==> Profesion=EMPLEADO PARTICULAR 5149    <conf:(1)> lift:(2.26) lev:(0.08) [2870] conv:(2870.33)
+17. Arma empleada=ARMA BLANCA / CORTOPUNZANTE Profesion=EMPLEADO PARTICULAR 5049 ==> Clase de empleado=EMPLEADO PARTICULAR 5049    <conf:(1)> lift:(1.95) lev:(0.07) [2456] conv:(2456.32)
+18. Clase de sitio=VIAS PUBLICAS Profesion=EMPLEADO PARTICULAR LINEA=LINEA STANDARD 4865 ==> Clase de empleado=EMPLEADO PARTICULAR 4865    <conf:(1)> lift:(1.95) lev:(0.06) [2366] conv:(2366.81)
+19. Profesion=EMPLEADO PARTICULAR Escolaridad=SECUNDARIA LINEA=LINEA STANDARD 4574 ==> Clase de empleado=EMPLEADO PARTICULAR 4574    <conf:(1)> lift:(1.95) lev:(0.06) [2225] conv:(2225.24)
+20. Clase de empleado=EMPLEADO PARTICULAR Escolaridad=SECUNDARIA LINEA=LINEA STANDARD 4574 ==> Profesion=EMPLEADO PARTICULAR 4574    <conf:(1)> lift:(2.26) lev:(0.07) [2549] conv:(2549.79)
+
