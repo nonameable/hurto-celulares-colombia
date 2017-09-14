@@ -1,0 +1,31 @@
+
+kMeans
+======
+
+Number of iterations: 2
+Within cluster sum of squared errors: 2064.0
+
+Initial starting points (random):
+
+Cluster 0: URBANA,FEMENINO
+Cluster 1: URBANA,MASCULINO
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                        Cluster#
+Attribute    Full Data         0         1
+             (36566.0) (17823.0) (18743.0)
+==========================================
+ZONA            URBANA    URBANA    URBANA
+SEXO         MASCULINO  FEMENINO MASCULINO
+
+
+
+
+=== Clustering stats for training data ===
+
+Clustered Instances
+0      12987 ( 49%)
+1      13627 ( 51%)
+
