@@ -1,0 +1,22 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 4
+
+Size of set of large itemsets L(2): 2
+
+Best rules found:
+
+ 1. MARCA=SAMSUNG 13175 ==> SEXO=FEMENINO 6621    <conf:(0.5)> lift:(1.06) lev:(0.01) [368] conv:(1.06)
+
+=== Evaluation ===
+
+Elapsed time: 0.138s
+

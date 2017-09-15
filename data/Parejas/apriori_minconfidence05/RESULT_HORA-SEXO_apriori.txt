@@ -1,0 +1,22 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 8
+
+Size of set of large itemsets L(2): 1
+
+Best rules found:
+
+ 1. HORA=NOCHE 6608 ==> SEXO=MASCULINO 3829    <conf:(0.58)> lift:(1.13) lev:(0.01) [441] conv:(1.16)
+
+=== Evaluation ===
+
+Elapsed time: 0.084s
+

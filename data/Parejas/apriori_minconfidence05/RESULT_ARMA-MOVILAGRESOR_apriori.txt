@@ -1,0 +1,25 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 5
+
+Size of set of large itemsets L(2): 3
+
+Best rules found:
+
+ 1. ARMA=SIN EMPLEO DE ARMAS 13437 ==> MOVILAGRESOR=A PIE 10325    <conf:(0.77)> lift:(1.12) lev:(0.03) [1092] conv:(1.35)
+ 2. ARMA=ARMA BLANCA / CORTOPUNZANTE 11487 ==> MOVILAGRESOR=A PIE 8761    <conf:(0.76)> lift:(1.11) lev:(0.02) [868] conv:(1.32)
+ 3. ARMA=ARMA DE FUEGO 8148 ==> MOVILAGRESOR=MOTOCICLETA 4342    <conf:(0.53)> lift:(2.36) lev:(0.07) [2501] conv:(1.66)
+ 4. MOVILAGRESOR=MOTOCICLETA 8258 ==> ARMA=ARMA DE FUEGO 4342    <conf:(0.53)> lift:(2.36) lev:(0.07) [2501] conv:(1.64)
+
+=== Evaluation ===
+
+Elapsed time: 0.111s
+

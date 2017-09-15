@@ -1,0 +1,23 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 4
+
+Size of set of large itemsets L(2): 2
+
+Best rules found:
+
+ 1. DEPARTAMENTO=ANTIOQUIA 5312 ==> SITIO=VIAS PUBLICAS 3970    <conf:(0.75)> lift:(1.07) lev:(0.01) [252] conv:(1.19)
+ 2. DEPARTAMENTO=CUNDINAMARCA 8040 ==> SITIO=VIAS PUBLICAS 5379    <conf:(0.67)> lift:(0.96) lev:(-0.01) [-247] conv:(0.91)
+
+=== Evaluation ===
+
+Elapsed time: 1.389s
+

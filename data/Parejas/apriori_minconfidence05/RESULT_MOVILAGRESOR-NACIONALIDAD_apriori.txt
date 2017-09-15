@@ -1,0 +1,24 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 3
+
+Size of set of large itemsets L(2): 2
+
+Best rules found:
+
+ 1. MOVILAGRESOR=MOTOCICLETA 8258 ==> NACIONALIDAD=COLOMBIA 8073    <conf:(0.98)> lift:(1.01) lev:(0) [44] conv:(1.24)
+ 2. MOVILAGRESOR=A PIE 25124 ==> NACIONALIDAD=COLOMBIA 24346    <conf:(0.97)> lift:(1) lev:(-0) [-78] conv:(0.9)
+ 3. NACIONALIDAD=COLOMBIA 35548 ==> MOVILAGRESOR=A PIE 24346    <conf:(0.68)> lift:(1) lev:(-0) [-78] conv:(0.99)
+
+=== Evaluation ===
+
+Elapsed time: 0.12s
+

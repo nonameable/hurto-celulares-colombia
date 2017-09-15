@@ -1,0 +1,23 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 5
+
+Size of set of large itemsets L(2): 2
+
+Best rules found:
+
+ 1. DEPARTAMENTO=CUNDINAMARCA 8040 ==> MOVILAGRESOR=A PIE 5920    <conf:(0.74)> lift:(1.07) lev:(0.01) [395] conv:(1.19)
+ 2. DEPARTAMENTO=ANTIOQUIA 5312 ==> MOVILAGRESOR=A PIE 3774    <conf:(0.71)> lift:(1.03) lev:(0) [124] conv:(1.08)
+
+=== Evaluation ===
+
+Elapsed time: 0.184s
+

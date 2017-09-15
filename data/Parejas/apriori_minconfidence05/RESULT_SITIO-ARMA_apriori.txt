@@ -1,0 +1,24 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 4
+
+Size of set of large itemsets L(2): 3
+
+Best rules found:
+
+ 1. ARMA=ARMA BLANCA / CORTOPUNZANTE 11487 ==> SITIO=VIAS PUBLICAS 9602    <conf:(0.84)> lift:(1.19) lev:(0.04) [1563] conv:(1.83)
+ 2. ARMA=ARMA DE FUEGO 8148 ==> SITIO=VIAS PUBLICAS 6287    <conf:(0.77)> lift:(1.1) lev:(0.02) [585] conv:(1.31)
+ 3. ARMA=SIN EMPLEO DE ARMAS 13437 ==> SITIO=VIAS PUBLICAS 7856    <conf:(0.58)> lift:(0.84) lev:(-0.04) [-1547] conv:(0.72)
+
+=== Evaluation ===
+
+Elapsed time: 1.068s
+

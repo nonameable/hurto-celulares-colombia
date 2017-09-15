@@ -1,0 +1,24 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 9
+
+Size of set of large itemsets L(2): 3
+
+Best rules found:
+
+ 1. FECHA=MARZO 6035 ==> MOVILAGRESOR=A PIE 4244    <conf:(0.7)> lift:(1.02) lev:(0) [97] conv:(1.05)
+ 2. FECHA=FEBRERO 5731 ==> MOVILAGRESOR=A PIE 4010    <conf:(0.7)> lift:(1.02) lev:(0) [72] conv:(1.04)
+ 3. FECHA=ENERO 6037 ==> MOVILAGRESOR=A PIE 4121    <conf:(0.68)> lift:(0.99) lev:(-0) [-26] conv:(0.99)
+
+=== Evaluation ===
+
+Elapsed time: 0.114s
+

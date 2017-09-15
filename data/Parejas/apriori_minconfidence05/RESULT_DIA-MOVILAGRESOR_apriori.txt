@@ -1,0 +1,23 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 9
+
+Size of set of large itemsets L(2): 2
+
+Best rules found:
+
+ 1. DIA=SABADO 5719 ==> MOVILAGRESOR=A PIE 3986    <conf:(0.7)> lift:(1.01) lev:(0) [56] conv:(1.03)
+ 2. DIA=VIERNES 5472 ==> MOVILAGRESOR=A PIE 3757    <conf:(0.69)> lift:(1) lev:(-0) [-2] conv:(1)
+
+=== Evaluation ===
+
+Elapsed time: 0.121s
+

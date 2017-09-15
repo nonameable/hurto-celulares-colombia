@@ -1,0 +1,23 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 3
+
+Size of set of large itemsets L(2): 2
+
+Best rules found:
+
+ 1. MARCA=HUAWEI 6190 ==> MOVILVICTIMA=A PIE 5256    <conf:(0.85)> lift:(1) lev:(0) [20] conv:(1.02)
+ 2. MARCA=SAMSUNG 13175 ==> MOVILVICTIMA=A PIE 11150    <conf:(0.85)> lift:(1) lev:(0) [7] conv:(1)
+
+=== Evaluation ===
+
+Elapsed time: 0.141s
+

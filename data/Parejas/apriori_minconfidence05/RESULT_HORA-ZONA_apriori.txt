@@ -1,0 +1,27 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 7
+
+Size of set of large itemsets L(2): 6
+
+Best rules found:
+
+ 1. HORA=NOCHE 6608 ==> ZONA=URBANA 6351    <conf:(0.96)> lift:(1) lev:(0) [30] conv:(1.12)
+ 2. HORA=ALMUERZO 3995 ==> ZONA=URBANA 3838    <conf:(0.96)> lift:(1) lev:(0) [17] conv:(1.1)
+ 3. HORA=TARDE 5955 ==> ZONA=URBANA 5686    <conf:(0.95)> lift:(1) lev:(-0) [-9] conv:(0.96)
+ 4. HORA=MANHANA 6296 ==> ZONA=URBANA 6009    <conf:(0.95)> lift:(1) lev:(-0) [-12] conv:(0.95)
+ 5. HORA=MOVILIZACIONVESPERTINA 7018 ==> ZONA=URBANA 6697    <conf:(0.95)> lift:(1) lev:(-0) [-15] conv:(0.95)
+ 6. HORA=MADRUGADA 6332 ==> ZONA=URBANA 6041    <conf:(0.95)> lift:(1) lev:(-0) [-15] conv:(0.94)
+
+=== Evaluation ===
+
+Elapsed time: 0.08s
+

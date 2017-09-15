@@ -1,0 +1,24 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 3
+
+Size of set of large itemsets L(2): 2
+
+Best rules found:
+
+ 1. MOVILAGRESOR=MOTOCICLETA 8258 ==> SITIO=VIAS PUBLICAS 6957    <conf:(0.84)> lift:(1.2) lev:(0.03) [1178] conv:(1.9)
+ 2. MOVILAGRESOR=A PIE 25124 ==> SITIO=VIAS PUBLICAS 17185    <conf:(0.68)> lift:(0.98) lev:(-0.01) [-396] conv:(0.95)
+ 3. SITIO=VIAS PUBLICAS 25589 ==> MOVILAGRESOR=A PIE 17185    <conf:(0.67)> lift:(0.98) lev:(-0.01) [-396] conv:(0.95)
+
+=== Evaluation ===
+
+Elapsed time: 1.07s
+

@@ -1,0 +1,28 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 8
+
+Size of set of large itemsets L(2): 7
+
+Best rules found:
+
+ 1. DIA=DOMINGO 4593 ==> MOVILVICTIMA=A PIE 4005    <conf:(0.87)> lift:(1.03) lev:(0) [120] conv:(1.2)
+ 2. DIA=LUNES 4928 ==> MOVILVICTIMA=A PIE 4188    <conf:(0.85)> lift:(1) lev:(0) [20] conv:(1.03)
+ 3. DIA=SABADO 5719 ==> MOVILVICTIMA=A PIE 4827    <conf:(0.84)> lift:(1) lev:(-0) [-9] conv:(0.99)
+ 4. DIA=VIERNES 5472 ==> MOVILVICTIMA=A PIE 4617    <conf:(0.84)> lift:(1) lev:(-0) [-10] conv:(0.99)
+ 5. DIA=MARTES 5173 ==> MOVILVICTIMA=A PIE 4360    <conf:(0.84)> lift:(1) lev:(-0) [-15] conv:(0.98)
+ 6. DIA=MIERCOLES 5328 ==> MOVILVICTIMA=A PIE 4459    <conf:(0.84)> lift:(0.99) lev:(-0) [-47] conv:(0.94)
+ 7. DIA=JUEVES 5353 ==> MOVILVICTIMA=A PIE 4470    <conf:(0.84)> lift:(0.99) lev:(-0) [-57] conv:(0.93)
+
+=== Evaluation ===
+
+Elapsed time: 0.112s
+

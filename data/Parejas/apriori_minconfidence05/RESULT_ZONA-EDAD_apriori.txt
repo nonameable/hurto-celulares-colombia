@@ -1,0 +1,24 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 4
+
+Size of set of large itemsets L(2): 3
+
+Best rules found:
+
+ 1. EDAD=ADULTOJOVEN 15607 ==> ZONA=URBANA 15035    <conf:(0.96)> lift:(1.01) lev:(0) [107] conv:(1.19)
+ 2. EDAD=ADULTO 12012 ==> ZONA=URBANA 11427    <conf:(0.95)> lift:(0.99) lev:(-0) [-61] conv:(0.89)
+ 3. EDAD=ADULTOMAYOR 5231 ==> ZONA=URBANA 4964    <conf:(0.95)> lift:(0.99) lev:(-0) [-39] conv:(0.85)
+
+=== Evaluation ===
+
+Elapsed time: 0.092s
+

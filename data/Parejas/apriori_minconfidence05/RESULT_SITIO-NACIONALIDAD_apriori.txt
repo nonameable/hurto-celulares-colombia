@@ -1,0 +1,23 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 2
+
+Size of set of large itemsets L(2): 1
+
+Best rules found:
+
+ 1. SITIO=VIAS PUBLICAS 25589 ==> NACIONALIDAD=COLOMBIA 25165    <conf:(0.98)> lift:(1.01) lev:(0.01) [288] conv:(1.68)
+ 2. NACIONALIDAD=COLOMBIA 35548 ==> SITIO=VIAS PUBLICAS 25165    <conf:(0.71)> lift:(1.01) lev:(0.01) [288] conv:(1.03)
+
+=== Evaluation ===
+
+Elapsed time: 1.12s
+

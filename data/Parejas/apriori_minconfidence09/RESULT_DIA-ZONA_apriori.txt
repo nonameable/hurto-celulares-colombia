@@ -1,0 +1,28 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 8
+
+Size of set of large itemsets L(2): 7
+
+Best rules found:
+
+ 1. DIA=MIERCOLES 5328 ==> ZONA=URBANA 5148    <conf:(0.97)> lift:(1.01) lev:(0) [52] conv:(1.28)
+ 2. DIA=VIERNES 5472 ==> ZONA=URBANA 5281    <conf:(0.97)> lift:(1.01) lev:(0) [47] conv:(1.24)
+ 3. DIA=MARTES 5173 ==> ZONA=URBANA 4970    <conf:(0.96)> lift:(1) lev:(0) [22] conv:(1.1)
+ 4. DIA=JUEVES 5353 ==> ZONA=URBANA 5138    <conf:(0.96)> lift:(1) lev:(0) [18] conv:(1.08)
+ 5. DIA=SABADO 5719 ==> ZONA=URBANA 5445    <conf:(0.95)> lift:(1) lev:(-0) [-24] conv:(0.91)
+ 6. DIA=LUNES 4928 ==> ZONA=URBANA 4686    <conf:(0.95)> lift:(0.99) lev:(-0) [-27] conv:(0.88)
+ 7. DIA=DOMINGO 4593 ==> ZONA=URBANA 4305    <conf:(0.94)> lift:(0.98) lev:(-0) [-87] conv:(0.69)
+
+=== Evaluation ===
+
+Elapsed time: 0.082s
+

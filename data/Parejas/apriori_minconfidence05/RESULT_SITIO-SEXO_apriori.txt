@@ -1,0 +1,24 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 3
+
+Size of set of large itemsets L(2): 2
+
+Best rules found:
+
+ 1. SEXO=MASCULINO 18743 ==> SITIO=VIAS PUBLICAS 13544    <conf:(0.72)> lift:(1.03) lev:(0.01) [427] conv:(1.08)
+ 2. SEXO=FEMENINO 17352 ==> SITIO=VIAS PUBLICAS 11979    <conf:(0.69)> lift:(0.99) lev:(-0) [-163] conv:(0.97)
+ 3. SITIO=VIAS PUBLICAS 25589 ==> SEXO=MASCULINO 13544    <conf:(0.53)> lift:(1.03) lev:(0.01) [427] conv:(1.04)
+
+=== Evaluation ===
+
+Elapsed time: 1.154s
+

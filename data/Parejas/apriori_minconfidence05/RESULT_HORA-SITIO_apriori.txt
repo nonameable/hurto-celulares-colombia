@@ -1,0 +1,26 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 7
+
+Size of set of large itemsets L(2): 5
+
+Best rules found:
+
+ 1. HORA=NOCHE 6608 ==> SITIO=VIAS PUBLICAS 4939    <conf:(0.75)> lift:(1.07) lev:(0.01) [314] conv:(1.19)
+ 2. HORA=MOVILIZACIONVESPERTINA 7018 ==> SITIO=VIAS PUBLICAS 5034    <conf:(0.72)> lift:(1.03) lev:(0) [122] conv:(1.06)
+ 3. HORA=TARDE 5955 ==> SITIO=VIAS PUBLICAS 4218    <conf:(0.71)> lift:(1.01) lev:(0) [50] conv:(1.03)
+ 4. HORA=MANHANA 6296 ==> SITIO=VIAS PUBLICAS 4329    <conf:(0.69)> lift:(0.98) lev:(-0) [-76] conv:(0.96)
+ 5. HORA=MADRUGADA 6332 ==> SITIO=VIAS PUBLICAS 3966    <conf:(0.63)> lift:(0.9) lev:(-0.01) [-465] conv:(0.8)
+
+=== Evaluation ===
+
+Elapsed time: 1.12s
+

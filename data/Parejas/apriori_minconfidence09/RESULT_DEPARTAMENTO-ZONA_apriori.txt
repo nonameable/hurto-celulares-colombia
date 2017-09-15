@@ -1,0 +1,24 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 4
+
+Size of set of large itemsets L(2): 3
+
+Best rules found:
+
+ 1. DEPARTAMENTO=CUNDINAMARCA 8040 ==> ZONA=URBANA 7967    <conf:(0.99)> lift:(1.04) lev:(0.01) [277] conv:(4.73)
+ 2. DEPARTAMENTO=ANTIOQUIA 5312 ==> ZONA=URBANA 5074    <conf:(0.96)> lift:(1) lev:(-0) [-6] conv:(0.97)
+ 3. DEPARTAMENTO=VALLE 4667 ==> ZONA=URBANA 4449    <conf:(0.95)> lift:(1) lev:(-0) [-14] conv:(0.93)
+
+=== Evaluation ===
+
+Elapsed time: 0.166s
+

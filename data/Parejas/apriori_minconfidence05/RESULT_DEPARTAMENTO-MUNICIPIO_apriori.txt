@@ -1,0 +1,25 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 5
+
+Size of set of large itemsets L(2): 2
+
+Best rules found:
+
+ 1. MUNICIPIO=BOGOTA D.C. (CT) 7736 ==> DEPARTAMENTO=CUNDINAMARCA 7736    <conf:(1)> lift:(4.55) lev:(0.17) [6035] conv:(6035.04)
+ 2. MUNICIPIO=MEDELLIN (CT) 3938 ==> DEPARTAMENTO=ANTIOQUIA 3938    <conf:(1)> lift:(6.88) lev:(0.09) [3365] conv:(3365.92)
+ 3. DEPARTAMENTO=CUNDINAMARCA 8040 ==> MUNICIPIO=BOGOTA D.C. (CT) 7736    <conf:(0.96)> lift:(4.55) lev:(0.17) [6035] conv:(20.78)
+ 4. DEPARTAMENTO=ANTIOQUIA 5312 ==> MUNICIPIO=MEDELLIN (CT) 3938    <conf:(0.74)> lift:(6.88) lev:(0.09) [3365] conv:(3.45)
+
+=== Evaluation ===
+
+Elapsed time: 2.358s
+

@@ -1,0 +1,24 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 4
+
+Size of set of large itemsets L(2): 3
+
+Best rules found:
+
+ 1. EDAD=ADULTOMAYOR 5231 ==> NACIONALIDAD=COLOMBIA 5181    <conf:(0.99)> lift:(1.02) lev:(0) [95] conv:(2.86)
+ 2. EDAD=ADULTO 12012 ==> NACIONALIDAD=COLOMBIA 11859    <conf:(0.99)> lift:(1.02) lev:(0) [181] conv:(2.17)
+ 3. EDAD=ADULTOJOVEN 15607 ==> NACIONALIDAD=COLOMBIA 15307    <conf:(0.98)> lift:(1.01) lev:(0) [134] conv:(1.44)
+
+=== Evaluation ===
+
+Elapsed time: 0.119s
+

@@ -1,0 +1,23 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 5
+
+Size of set of large itemsets L(2): 4
+
+Best rules found:
+
+ 1. EDAD=ADULTOJOVEN 15607 ==> SEXO=MASCULINO 8061    <conf:(0.52)> lift:(1.01) lev:(0) [61] conv:(1.01)
+ 2. EDAD=ADULTO 12012 ==> SEXO=MASCULINO 6050    <conf:(0.5)> lift:(0.98) lev:(-0) [-107] conv:(0.98)
+
+=== Evaluation ===
+
+Elapsed time: 0.093s
+

@@ -1,0 +1,23 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 2
+
+Size of set of large itemsets L(2): 1
+
+Best rules found:
+
+ 1. SITIO=VIAS PUBLICAS 25589 ==> MOVILVICTIMA=A PIE 22241    <conf:(0.87)> lift:(1.03) lev:(0.02) [598] conv:(1.18)
+ 2. MOVILVICTIMA=A PIE 30926 ==> SITIO=VIAS PUBLICAS 22241    <conf:(0.72)> lift:(1.03) lev:(0.02) [598] conv:(1.07)
+
+=== Evaluation ===
+
+Elapsed time: 1.063s
+

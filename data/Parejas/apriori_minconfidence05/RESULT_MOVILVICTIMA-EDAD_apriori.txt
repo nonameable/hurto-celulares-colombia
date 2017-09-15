@@ -1,0 +1,24 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 4
+
+Size of set of large itemsets L(2): 3
+
+Best rules found:
+
+ 1. EDAD=ADULTOJOVEN 15607 ==> MOVILVICTIMA=A PIE 13291    <conf:(0.85)> lift:(1.01) lev:(0) [91] conv:(1.04)
+ 2. EDAD=ADULTOMAYOR 5231 ==> MOVILVICTIMA=A PIE 4360    <conf:(0.83)> lift:(0.99) lev:(-0) [-64] conv:(0.93)
+ 3. EDAD=ADULTO 12012 ==> MOVILVICTIMA=A PIE 9945    <conf:(0.83)> lift:(0.98) lev:(-0.01) [-214] conv:(0.9)
+
+=== Evaluation ===
+
+Elapsed time: 0.113s
+

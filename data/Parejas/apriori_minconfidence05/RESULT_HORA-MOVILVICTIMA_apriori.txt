@@ -1,0 +1,26 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 7
+
+Size of set of large itemsets L(2): 5
+
+Best rules found:
+
+ 1. HORA=TARDE 5955 ==> MOVILVICTIMA=A PIE 5097    <conf:(0.86)> lift:(1.01) lev:(0) [60] conv:(1.07)
+ 2. HORA=NOCHE 6608 ==> MOVILVICTIMA=A PIE 5619    <conf:(0.85)> lift:(1.01) lev:(0) [30] conv:(1.03)
+ 3. HORA=MADRUGADA 6332 ==> MOVILVICTIMA=A PIE 5372    <conf:(0.85)> lift:(1) lev:(0) [16] conv:(1.02)
+ 4. HORA=MANHANA 6296 ==> MOVILVICTIMA=A PIE 5310    <conf:(0.84)> lift:(1) lev:(-0) [-14] conv:(0.98)
+ 5. HORA=MOVILIZACIONVESPERTINA 7018 ==> MOVILVICTIMA=A PIE 5843    <conf:(0.83)> lift:(0.98) lev:(-0) [-92] conv:(0.92)
+
+=== Evaluation ===
+
+Elapsed time: 0.11s
+

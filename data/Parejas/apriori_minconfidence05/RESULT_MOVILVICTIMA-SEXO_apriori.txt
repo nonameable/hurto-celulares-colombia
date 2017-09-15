@@ -1,0 +1,24 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 3
+
+Size of set of large itemsets L(2): 2
+
+Best rules found:
+
+ 1. SEXO=FEMENINO 17352 ==> MOVILVICTIMA=A PIE 14956    <conf:(0.86)> lift:(1.02) lev:(0.01) [280] conv:(1.12)
+ 2. SEXO=MASCULINO 18743 ==> MOVILVICTIMA=A PIE 15519    <conf:(0.83)> lift:(0.98) lev:(-0.01) [-333] conv:(0.9)
+ 3. MOVILVICTIMA=A PIE 30926 ==> SEXO=MASCULINO 15519    <conf:(0.5)> lift:(0.98) lev:(-0.01) [-333] conv:(0.98)
+
+=== Evaluation ===
+
+Elapsed time: 0.096s
+

@@ -1,0 +1,24 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 4
+
+Size of set of large itemsets L(2): 3
+
+Best rules found:
+
+ 1. ARMA=ARMA BLANCA / CORTOPUNZANTE 11487 ==> NACIONALIDAD=COLOMBIA 11326    <conf:(0.99)> lift:(1.01) lev:(0) [158] conv:(1.97)
+ 2. ARMA=SIN EMPLEO DE ARMAS 13437 ==> NACIONALIDAD=COLOMBIA 13053    <conf:(0.97)> lift:(1) lev:(-0) [-9] conv:(0.97)
+ 3. ARMA=ARMA DE FUEGO 8148 ==> NACIONALIDAD=COLOMBIA 7865    <conf:(0.97)> lift:(0.99) lev:(-0) [-56] conv:(0.8)
+
+=== Evaluation ===
+
+Elapsed time: 0.117s
+

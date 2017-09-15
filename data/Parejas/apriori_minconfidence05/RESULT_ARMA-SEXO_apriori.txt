@@ -1,0 +1,24 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 5
+
+Size of set of large itemsets L(2): 5
+
+Best rules found:
+
+ 1. ARMA=ARMA DE FUEGO 8148 ==> SEXO=MASCULINO 4959    <conf:(0.61)> lift:(1.19) lev:(0.02) [782] conv:(1.24)
+ 2. ARMA=SIN EMPLEO DE ARMAS 13437 ==> SEXO=FEMENINO 7550    <conf:(0.56)> lift:(1.18) lev:(0.03) [1173] conv:(1.2)
+ 3. ARMA=ARMA BLANCA / CORTOPUNZANTE 11487 ==> SEXO=MASCULINO 6314    <conf:(0.55)> lift:(1.07) lev:(0.01) [425] conv:(1.08)
+
+=== Evaluation ===
+
+Elapsed time: 0.09s
+

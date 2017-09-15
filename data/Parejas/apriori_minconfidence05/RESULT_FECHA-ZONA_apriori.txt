@@ -1,0 +1,28 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 8
+
+Size of set of large itemsets L(2): 7
+
+Best rules found:
+
+ 1. FECHA=JUNIO 4663 ==> ZONA=URBANA 4487    <conf:(0.96)> lift:(1.01) lev:(0) [27] conv:(1.15)
+ 2. FECHA=MAYO 5036 ==> ZONA=URBANA 4840    <conf:(0.96)> lift:(1) lev:(0) [23] conv:(1.11)
+ 3. FECHA=JULIO 3849 ==> ZONA=URBANA 3698    <conf:(0.96)> lift:(1) lev:(0) [16] conv:(1.1)
+ 4. FECHA=ABRIL 5215 ==> ZONA=URBANA 4997    <conf:(0.96)> lift:(1) lev:(0) [9] conv:(1.04)
+ 5. FECHA=MARZO 6035 ==> ZONA=URBANA 5767    <conf:(0.96)> lift:(1) lev:(-0) [-5] conv:(0.98)
+ 6. FECHA=FEBRERO 5731 ==> ZONA=URBANA 5450    <conf:(0.95)> lift:(0.99) lev:(-0) [-31] conv:(0.89)
+ 7. FECHA=ENERO 6037 ==> ZONA=URBANA 5734    <conf:(0.95)> lift:(0.99) lev:(-0) [-39] conv:(0.87)
+
+=== Evaluation ===
+
+Elapsed time: 0.087s
+

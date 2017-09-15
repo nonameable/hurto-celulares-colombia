@@ -1,0 +1,28 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 8
+
+Size of set of large itemsets L(2): 7
+
+Best rules found:
+
+ 1. DIA=MIERCOLES 5328 ==> NACIONALIDAD=COLOMBIA 5202    <conf:(0.98)> lift:(1) lev:(0) [22] conv:(1.17)
+ 2. DIA=JUEVES 5353 ==> NACIONALIDAD=COLOMBIA 5214    <conf:(0.97)> lift:(1) lev:(0) [10] conv:(1.06)
+ 3. DIA=MARTES 5173 ==> NACIONALIDAD=COLOMBIA 5033    <conf:(0.97)> lift:(1) lev:(0) [4] conv:(1.02)
+ 4. DIA=SABADO 5719 ==> NACIONALIDAD=COLOMBIA 5564    <conf:(0.97)> lift:(1) lev:(0) [4] conv:(1.02)
+ 5. DIA=DOMINGO 4593 ==> NACIONALIDAD=COLOMBIA 4465    <conf:(0.97)> lift:(1) lev:(-0) [0] conv:(0.99)
+ 6. DIA=VIERNES 5472 ==> NACIONALIDAD=COLOMBIA 5318    <conf:(0.97)> lift:(1) lev:(-0) [-1] conv:(0.98)
+ 7. DIA=LUNES 4928 ==> NACIONALIDAD=COLOMBIA 4752    <conf:(0.96)> lift:(0.99) lev:(-0) [-38] conv:(0.78)
+
+=== Evaluation ===
+
+Elapsed time: 0.099s
+

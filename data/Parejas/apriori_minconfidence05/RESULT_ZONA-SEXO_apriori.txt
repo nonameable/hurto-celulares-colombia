@@ -1,0 +1,24 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 3
+
+Size of set of large itemsets L(2): 2
+
+Best rules found:
+
+ 1. SEXO=FEMENINO 17352 ==> ZONA=URBANA 16724    <conf:(0.96)> lift:(1.01) lev:(0) [127] conv:(1.2)
+ 2. SEXO=MASCULINO 18743 ==> ZONA=URBANA 17799    <conf:(0.95)> lift:(0.99) lev:(-0) [-127] conv:(0.86)
+ 3. ZONA=URBANA 34973 ==> SEXO=MASCULINO 17799    <conf:(0.51)> lift:(0.99) lev:(-0) [-127] conv:(0.99)
+
+=== Evaluation ===
+
+Elapsed time: 0.07s
+

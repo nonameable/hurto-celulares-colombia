@@ -1,0 +1,24 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 3
+
+Size of set of large itemsets L(2): 2
+
+Best rules found:
+
+ 1. MOVILAGRESOR=A PIE 25124 ==> MOVILVICTIMA=A PIE 23608    <conf:(0.94)> lift:(1.11) lev:(0.06) [2359] conv:(2.55)
+ 2. MOVILVICTIMA=A PIE 30926 ==> MOVILAGRESOR=A PIE 23608    <conf:(0.76)> lift:(1.11) lev:(0.06) [2359] conv:(1.32)
+ 3. MOVILAGRESOR=MOTOCICLETA 8258 ==> MOVILVICTIMA=A PIE 6249    <conf:(0.76)> lift:(0.89) lev:(-0.02) [-735] conv:(0.63)
+
+=== Evaluation ===
+
+Elapsed time: 0.113s
+

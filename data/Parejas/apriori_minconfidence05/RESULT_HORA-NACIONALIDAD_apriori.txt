@@ -1,0 +1,27 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 7
+
+Size of set of large itemsets L(2): 6
+
+Best rules found:
+
+ 1. HORA=MOVILIZACIONVESPERTINA 7018 ==> NACIONALIDAD=COLOMBIA 6849    <conf:(0.98)> lift:(1) lev:(0) [26] conv:(1.15)
+ 2. HORA=MANHANA 6296 ==> NACIONALIDAD=COLOMBIA 6132    <conf:(0.97)> lift:(1) lev:(0) [11] conv:(1.06)
+ 3. HORA=TARDE 5955 ==> NACIONALIDAD=COLOMBIA 5796    <conf:(0.97)> lift:(1) lev:(0) [6] conv:(1.04)
+ 4. HORA=NOCHE 6608 ==> NACIONALIDAD=COLOMBIA 6419    <conf:(0.97)> lift:(1) lev:(-0) [-5] conv:(0.97)
+ 5. HORA=ALMUERZO 3995 ==> NACIONALIDAD=COLOMBIA 3880    <conf:(0.97)> lift:(1) lev:(-0) [-3] conv:(0.96)
+ 6. HORA=MADRUGADA 6332 ==> NACIONALIDAD=COLOMBIA 6115    <conf:(0.97)> lift:(0.99) lev:(-0) [-40] conv:(0.81)
+
+=== Evaluation ===
+
+Elapsed time: 0.103s
+

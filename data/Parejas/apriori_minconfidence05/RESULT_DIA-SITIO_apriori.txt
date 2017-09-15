@@ -1,0 +1,26 @@
+
+Apriori
+=======
+
+Minimum support: 0.1 (3657 instances)
+Minimum metric <confidence>: 0.5
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 8
+
+Size of set of large itemsets L(2): 5
+
+Best rules found:
+
+ 1. DIA=MARTES 5173 ==> SITIO=VIAS PUBLICAS 3668    <conf:(0.71)> lift:(1.01) lev:(0) [47] conv:(1.03)
+ 2. DIA=VIERNES 5472 ==> SITIO=VIAS PUBLICAS 3874    <conf:(0.71)> lift:(1.01) lev:(0) [44] conv:(1.03)
+ 3. DIA=SABADO 5719 ==> SITIO=VIAS PUBLICAS 4000    <conf:(0.7)> lift:(1) lev:(-0) [-2] conv:(1)
+ 4. DIA=MIERCOLES 5328 ==> SITIO=VIAS PUBLICAS 3703    <conf:(0.7)> lift:(0.99) lev:(-0) [-25] conv:(0.98)
+ 5. DIA=JUEVES 5353 ==> SITIO=VIAS PUBLICAS 3709    <conf:(0.69)> lift:(0.99) lev:(-0) [-37] conv:(0.98)
+
+=== Evaluation ===
+
+Elapsed time: 1.204s
+
