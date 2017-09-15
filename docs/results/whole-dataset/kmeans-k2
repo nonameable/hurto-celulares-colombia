@@ -1,0 +1,83 @@
+=== Run information ===
+
+Scheme:       weka.clusterers.SimpleKMeans -init 0 -max-candidates 100 -periodic-pruning 10000 -min-density 2.0 -t1 -1.25 -t2 -1.0 -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Relation:     DatosPreprocesadosASCII-weka.filters.unsupervised.instance.NonSparseToSparse-weka.filters.unsupervised.attribute.StringToNominal-Rfirst-last-weka.filters.unsupervised.attribute.NumericToNominal-Rfirst-last
+Instances:    36769
+Attributes:   20
+              Fecha
+              Departamento
+              Municipio
+              Dia
+              Hora
+              Barrio
+              Zona
+              Clase de sitio
+              Arma empleada
+              Movil Agresor
+              Movil Victima
+              Edad
+              Sexo
+              Pais de nacimiento
+              Clase de empleado
+              Profesion
+              Escolaridad
+              MARCA
+              LINEA
+              Cantidad
+Test mode:    evaluate on training data
+
+
+=== Clustering model (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 4
+Within cluster sum of squared errors: 382612.0
+
+Initial starting points (random):
+
+Cluster 0: {0 04/22/2017,1 ANTIOQUIA,2 'MEDELLIN (CT)',3 Sabado,4 '02:50:00 PM',5 'LA FLORESTA C-12',7 'VIAS PUBLICAS',8 'ARMA DE FUEGO',9 'CONDUCTOR MOTOCICLETA',10 'CONDUCTOR VEHICULO',11 39,14 'EMPLEADO PARTICULAR',15 'EMPLEADO PARTICULAR',16 SECUNDARIA,17 IPHONE,18 6}
+Cluster 1: {0 06/22/2017,1 CUNDINAMARCA,2 'BOGOTA D.C. (CT)',3 Jueves,4 '06:00:00 PM',5 'RESTREPO E-15',7 'VIAS PUBLICAS',8 'SIN EMPLEO DE ARMAS',10 'CONDUCTOR VEHICULO',11 43,12 MASCULINO,16 PRIMARIA,17 HUAWEI,18 'LINEA STANDARD'}
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                                                                           Cluster#
+Attribute                                             Full Data                   0                   1
+                                                      (36769.0)           (23635.0)           (13134.0)
+=======================================================================================================
+Fecha                                                04/01/2017          02/25/2017          04/06/2017
+Departamento                                       CUNDINAMARCA           ANTIOQUIA        CUNDINAMARCA
+Municipio                                      BOGOTA D.C. (CT)       MEDELLIN (CT)    BOGOTA D.C. (CT)
+Dia                                                      Sabado              Sabado              Jueves
+Hora                                                12:00:00 AM         12:00:00 AM         07:00:00 PM
+Barrio                                                   CENTRO              CENTRO              CENTRO
+Zona                                                     URBANA              URBANA              URBANA
+Clase de sitio                                    VIAS PUBLICAS       VIAS PUBLICAS       VIAS PUBLICAS
+Arma empleada                               SIN EMPLEO DE ARMAS SIN EMPLEO DE ARMAS SIN EMPLEO DE ARMAS
+Movil Agresor                                             A PIE               A PIE               A PIE
+Movil Victima                                             A PIE               A PIE               A PIE
+Edad                                                         26                  27                  21
+Sexo                                                  MASCULINO            FEMENINO           MASCULINO
+Pais de nacimiento                                     COLOMBIA            COLOMBIA            COLOMBIA
+Clase de empleado                           EMPLEADO PARTICULAR EMPLEADO PARTICULAR       INDEPENDIENTE
+Profesion                                   EMPLEADO PARTICULAR EMPLEADO PARTICULAR       INDEPENDIENTE
+Escolaridad                                          SECUNDARIA          SECUNDARIA          SECUNDARIA
+MARCA                                                   SAMSUNG             SAMSUNG             SAMSUNG
+LINEA                                            LINEA STANDARD      LINEA STANDARD      LINEA STANDARD
+Cantidad                                                      1                   1                   1
+
+
+
+
+Time taken to build model (full training data) : 0.51 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      23635 ( 64%)
+1      13134 ( 36%)
+
