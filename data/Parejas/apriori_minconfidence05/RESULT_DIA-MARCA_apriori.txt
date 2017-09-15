@@ -1,7 +1,0 @@
-
-No large itemsets and rules found!
-
-=== Evaluation ===
-
-Elapsed time: 0.152s
-
