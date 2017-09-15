@@ -5,23 +5,18 @@ reglas interesantes
  3. ARMA=ARMA DE FUEGO 8148 ==> MOVILAGRESOR=MOTOCICLETA 4342    <conf:(0.53)> lift:(2.36) lev:(0.07) [2501] conv:(1.66)
  4. MOVILAGRESOR=MOTOCICLETA 8258 ==> ARMA=ARMA DE FUEGO 4342    <conf:(0.53)> lift:(2.36) lev:(0.07) [2501] conv:(1.64)
 
-
-  1. ARMA=ARMA DE FUEGO 8148 ==> SEXO=MASCULINO 4959    <conf:(0.61)> lift:(1.19) lev:(0.02) [782] conv:(1.24)
+ 1. ARMA=ARMA DE FUEGO 8148 ==> SEXO=MASCULINO 4959    <conf:(0.61)> lift:(1.19) lev:(0.02) [782] conv:(1.24)
  2. ARMA=SIN EMPLEO DE ARMAS 13437 ==> SEXO=FEMENINO 7550    <conf:(0.56)> lift:(1.18) lev:(0.03) [1173] conv:(1.2)
  3. ARMA=ARMA BLANCA / CORTOPUNZANTE 11487 ==> SEXO=MASCULINO 6314    <conf:(0.55)> lift:(1.07) lev:(0.01) [425] conv:(1.08)
 
 
-  3. MOVILAGRESOR=MOTOCICLETA 8258 ==> MOVILVICTIMA=A PIE 6249    <conf:(0.76)> lift:(0.89) lev:(-0.02) [-735] conv:(0.63)
+ 3. MOVILAGRESOR=MOTOCICLETA 8258 ==> MOVILVICTIMA=A PIE 6249    <conf:(0.76)> lift:(0.89) lev:(-0.02) [-735] conv:(0.63)
 
 
-  3. DEPARTAMENTO=CUNDINAMARCA 8040 ==> MUNICIPIO=BOGOTA D.C. (CT) 7736    <conf:(0.96)> lift:(4.55) lev:(0.17) [6035] conv:(20.78)
+ 3. DEPARTAMENTO=CUNDINAMARCA 8040 ==> MUNICIPIO=BOGOTA D.C. (CT) 7736    <conf:(0.96)> lift:(4.55) lev:(0.17) [6035] conv:(20.78)
  4. DEPARTAMENTO=ANTIOQUIA 5312 ==> MUNICIPIO=MEDELLIN (CT) 3938    <conf:(0.74)> lift:(6.88) lev:(0.09) [3365] conv:(3.45)
 
 
-1. MUNICIPIO=BOGOTA D.C. (CT) 7736 ==> MOVILAGRESOR=A PIE 5651    <conf:(0.73)> lift:(1.06) lev:(0.01) [335] conv:(1.16)
- 2. EDAD=ADULTOJOVEN SEXO=MASCULINO 8061 ==> MOVILAGRESOR=A PIE 5610    <conf:(0.7)> lift:(1.01) lev:(0) [71] conv:(1.03)
-
-
-  7. DEPARTAMENTO=CUNDINAMARCA 8040 ==> MOVILAGRESOR=A PIE 5920    <conf:(0.74)> lift:(1.07) lev:(0.01) [395] conv:(1.19)
+ 7. DEPARTAMENTO=CUNDINAMARCA 8040 ==> MOVILAGRESOR=A PIE 5920    <conf:(0.74)> lift:(1.07) lev:(0.01) [395] conv:(1.19)
  8. MUNICIPIO=BOGOTA D.C. (CT) 7736 ==> MOVILAGRESOR=A PIE 5651    <conf:(0.73)> lift:(1.06) lev:(0.01) [335] conv:(1.16)
 
